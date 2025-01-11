@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ancient Times - Timeline of Time</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Animate.css for Animations -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link active" href="ancient.html">Ancient Times</a></li>
+                <li class="nav-item"><a class="nav-link" href="medieval.html">Medieval Times</a></li>
+                <li class="nav-item"><a class="nav-link" href="modern.html">Modern Era</a></li>
+                <li class="nav-item"><a class="nav-link" href="future.html">Future Concepts</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section id="ancient-hero" class="d-flex align-items-center justify-content-center vh-100">
+    <div class="overlay"></div>
+    <div class="text-center text-white position-absolute animate__animated animate__fadeInDown">
+        <h1 class="display-3 fw-bold">Ancient Times</h1>
+        <p class="lead">Explore how ancient civilizations measured and understood time.</p>
+
+        <!-- Scroll Down Button -->
+        <a href="#content-start" class="scroll-down-btn">
+            <i class="fa fa-angle-double-down"></i>
+        </a>
+    </div>
+</section>
+
+
+
+<!-- Content Section 1: The Moon -->
+<section id="content-start" class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-3 animate__animated animate__fadeInLeft">
+            <img src="../images/moon.gif" alt="The Moon" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+            <h2>The Moon</h2>
+            <p>
+                The Moon was the first instrument used to measure time. Its regular cycles helped determine the length of months 
+                and predict seasonal changes. Ancient people also used the moon to track lunar phases and understand the passing of time.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Content Section 2: The Sun and Sundials -->
+<section class="container py-5 bg-light">
+    <div class="row align-items-center">
+        <div class="col-md-6 order-md-2 animate__animated animate__fadeInRight">
+            <img src="../images/sundial.gif" alt="Ancient Sundial" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 order-md-1 animate__animated animate__fadeInLeft">
+            <h2>The Sun and Sundials</h2>
+            <p>
+                Early civilizations like the Babylonians and Egyptians used the Sun to measure time. They divided the day into hours 
+                using shadow-casting devices like sundials, which became one of the earliest methods for dividing the day.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Content Section 3: The Luxor Obelisk -->
+<section class="container py-5">
+    <div class="row align-items-center">
+        <div class="col-md-5 animate__animated animate__fadeInLeft">
+            <video autoplay muted loop playsinline class="video-responsive">
+                <source src="../videos/luxor.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="col-md-6 animate__animated animate__fadeInRight">
+            <h2>The Luxor Obelisk</h2>
+            <p>
+                Built by Ramses II around 1300 B.C., the Luxor Obelisk served as a giant sundial. Egyptians used the shadow it cast 
+                to mark the hours of the day. This massive stone structure highlights how ancient people connected architecture with 
+                timekeeping.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Content Section 4: The Clepsydra (Water Clock) -->
+<section class="container py-5 bg-light">
+    <div class="row align-items-center">
+        <div class="col-md-4 order-md-2 animate__animated animate__fadeInRight">
+            <img src="../images/Clepsydra-of-Karnak.jpg" alt="Egyptian Clepsydra" class="img-fluid rounded">
+        </div>
+        <div class="col-md-6 order-md-1 animate__animated animate__fadeInLeft">
+            <h2>The Egyptian Clepsydra</h2>
+            <p>
+                The Clepsydra, or water clock, was a vital invention by the Egyptians between 1400–1300 B.C. Time was measured 
+                by the steady dripping of water from one container to another, offering a way to track time independent of sunlight.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p> &copy; 2025 Rosalim Sorin-Ionuț. All Rights Reserved. </p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="../js/script.js"></script>
+
+</body>
+</html>
